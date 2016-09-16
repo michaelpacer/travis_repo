@@ -1,0 +1,10 @@
+# Use a newer travis environment:
+# https://docs.travis-ci.com/user/trusty-ci-environment/
+# needs these two lines:
+sudo: required
+dist: trusty
+
+addons:
+  apt:
+    packages:
+    - texlive-lang-chinese # for svgs in pdf output
